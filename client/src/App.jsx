@@ -4,6 +4,7 @@ import UseReducer from './pages/UseReducer'
 import UseReducer2 from './pages/UseReducer2'
 import Todo from './pages/Todo'
 import CounterUsingRedux from './pages/CounterUsingRedux'
+import TodoRedux from './pages/TodoRedux'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path='/counterUsingRedux' element={<CounterUsingRedux/>}/>
         <Route path='/usereducer2' element={<UseReducer2/>}/>
         <Route path='/todo' element={<Todo/>}/>
+        <Route path='/todoredux' element={<TodoRedux/>}/>
       </Routes>
   )
 }

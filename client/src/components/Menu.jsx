@@ -12,10 +12,11 @@ const Menu = () => {
             <Link className='text underline text-blue-500' to="/counterUsingRedux">CounterUsingRedux</Link>
         </div>
         <div className='p-2'>
-          <Link className='text underline text-blue-500' to="/usereducer2">useReducer</Link>
+          <Link className='text underline text-blue-500' to="/usereducer2">useReducer2</Link>
         </div>
-        <div className='p-2'>
+        <div className='p-2 flex flex-col '>
           <Link className='text underline text-blue-500' to="/todo">ToDo List</Link>
+          <Link className='text underline text-blue-500' to="/todoredux">ToDo With Redux</Link>
         </div>
     </div>
   )
