@@ -25,6 +25,16 @@ const TodoRedux = () => {
                 </div>
             ))}
         </div>
+        {/* <div>
+            {todos.map((todo)=>(
+                <div key={todo.id}>
+                    <span>{todo.id}</span>
+                    <span>{todo.task}</span>
+                    <span>{todo.complete ? 'Yes' : "NO"}</span>
+                    <button className='border border-black p-4' onClick={() => dispatch(completeTask(todo.id))}>Complete</button>
+                </div>
+            ))}
+        </div> */}
     </div>
   )
 }
